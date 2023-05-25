@@ -80,7 +80,7 @@ void pop(stack_t **stack, unsigned int line_num)
  */
 void swap(stack_t **stack, unsigned int line_num)
 {
-	stack_td *h = *stack, *ptr;
+	stack_t *h = *stack, *ptr;
 
 	if ((*stack) == NULL || (*stack)->next == NULL)
 	{
