@@ -56,7 +56,7 @@ void push(stack_t **stack, unsigned int line_num, int n)
 
 void pop(stack_t **stack, unsigned int line_num)
 {
-	sstack_t *h = *stack;
+	stack_t *h = *stack;
 
 	if (!(*stack))
 	{
